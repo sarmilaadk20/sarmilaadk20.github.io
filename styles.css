@@ -66,6 +66,7 @@ a {
    ========================================================================== */
 .section {
     padding: 6rem 0;
+    scroll-margin-top: 90px;
 }
 
 .section-container {
@@ -473,6 +474,10 @@ a {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        font-size: 1.2rem;
+    }
+
     .hamburger {
         display: flex;
     }
@@ -515,6 +520,7 @@ a {
 
     .section {
         padding: 4rem 0;
+        scroll-margin-top: 80px;
     }
     
     .section-title {
