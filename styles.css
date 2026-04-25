@@ -458,9 +458,11 @@ a {
 @media (max-width: 900px) {
     .hero {
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         text-align: center;
-        padding-top: 8rem;
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+        min-height: auto;
     }
 
     .hero-image-wrapper {
@@ -521,6 +523,13 @@ a {
     .section {
         padding: 4rem 0;
         scroll-margin-top: 80px;
+    }
+    
+    .hero.section {
+        padding-top: 10rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     
     .section-title {
